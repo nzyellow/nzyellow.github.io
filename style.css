@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
 }
 
 body {
     background-color: black;
-    background-image: url(wallpapers.jpeg);
+    background-image: url(../img/background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,12 +18,12 @@ body {
 }
 
 main {
-    width: 400px;
+    width: 340px;
     height: 490px;
-    margin: 100px auto;
-    border: 1px solid rgb(254, 254, 254);
+    margin: 100px auto 0;
+    border: 1px solid rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.751);
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .image {
@@ -29,7 +32,7 @@ main {
     background-color: rgb(255, 255, 255);
     margin: 35px auto;
     border-radius: 100px;
-    background-image: url(image.png);
+    background-image: url(../img/image_2.png);
     background-size: cover;
 }
 
@@ -40,23 +43,16 @@ h1, h2, h3 {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 200;
 }
 
 h3 {
-    position: relative;
-    bottom: 0;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 200;
-    padding-top: 60px;
 }
 
-.line {
-    width: 100%;
-    height: 1px;
-    background-color: rgb(255, 255, 255);
-}
+
 
 .vk, .youtube, .tg {
     margin: 20px;
